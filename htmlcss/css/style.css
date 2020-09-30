@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0 30px;
+    font-size: 150%;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    background-color: salmon;
+    
+}
+
+header{
+    background-image: url(../img/fond.jpg);
+    background-size: cover;
+    height: 80vh;
+    opacity: 0.9;
+}
+
+h1{
+    text-align: center;
+    font-size: 90px;
+}
+
+.presentation {
+    font-size: 30px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.premiereimage {
+    display: flex;
+
+}
+.secondeimage {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.troisiemeimage {
+    display: flex;
+}
+
+.desc {
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    padding: 0 20px;
+}
+
+
+.classeimages {
+    width: 49vw;
+}
+
+.map {
+    width: 100%;
+}
+.colones{
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.bouton{
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    background-color: salmon;
+    color: white;
+    border-radius: 5%;
+}
+ .bouton:hover{
+    background-color: wheat;
+    color: salmon;
+    cursor: pointer;
+ }
+ footer{
+     background-color: salmon;
+     color: wheat;
+     text-align: center;
+     padding: 0 20px;   
+ }
+ .icon{
+     width: 30px;
+ }
+ #icon{
+     display: flex;
+     justify-content: space-around;
+ }
+ #oui{
+     margin: 0 auto;
+     width: 50%;
+     display: flex;
+     justify-content: space-around ;
+ }
+ form{
+     margin: 0 auto;
+     font-size: 20px;
+     text-align: center;
+ }
+ a:hover{
+     background-color: wheat;
+     color: salmon;
+
+ }
+ .joueur{
+     color: gold;
+ }
+ .classement{
+
+     text-align: center;
+
+ }
+ @media screen and (max-width:500px){
+    
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            padding: 10px 25px;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            
+        }
+        h1{
+            text-align: center;
+            font-size: 40px;
+        }
+        .presentation {
+            font-size: 20px;
+            text-align: center;
+        }
+        .premiereimage {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .secondeimage {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .troisiemeimage {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .classeimages {
+            width: 80vw;
+        }
+        #oui{
+            margin: 0 auto;
+            width: 50%;
+            display: flex;
+            justify-content: flex-start; ;
+            flex-direction: column;
+        }
+        header{
+            background-image: none;
+            background-size: cover;
+            height: 50vh;
+            opacity: 0.9;
+        }
+     
+ }
